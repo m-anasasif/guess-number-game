@@ -1,0 +1,60 @@
+body{
+  background-color:darkcyan;
+}
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 50px auto;
+  border: 1px solid black;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  align-self: center;
+  width: 290px;
+  height: 25px;
+  background-color:#d0d0d0;
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  background-color: darkgray;
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+  background-color: rgb(163, 163, 163);
+}
+
+.game-container h1{
+  font-size: 43px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons{
+  align-self: center;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+.attempts, .feedback_text{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.previous_guess{
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
